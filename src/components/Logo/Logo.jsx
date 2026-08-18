@@ -17,8 +17,8 @@ export default (props) => {
         className="logo__image"
         src="/images/logo.svg"
         alt=""
-        width={200}
-        height={68}
+        width={117}
+        height={34}
         loading={loading}
       />
     </a>
