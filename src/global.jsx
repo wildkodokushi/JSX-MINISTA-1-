@@ -9,7 +9,7 @@ import favicon16 from '@/assets/favicons/favicon-16x16.png'
 import manifest from '@/assets/favicons/site.webmanifest'
 
 export default (props) => {
-  const { children, url } = props
+  const { children } = props
 
   return (
     <>
@@ -21,7 +21,7 @@ export default (props) => {
         <link rel="icon" type="image/png" sizes="16x16" href={favicon16} />
         <link rel="manifest" href={manifest} />
       </Head>
-      <Header url={ url } />
+      <Header />
       <Content>{ children }</Content>
       <Footer />
     </>
