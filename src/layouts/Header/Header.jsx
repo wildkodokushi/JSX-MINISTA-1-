@@ -4,8 +4,6 @@ import Button from "@/components/Button"
 import clsx from "clsx"
 
 export default (props) => {
-    const { url } = props
-
     const navLink = [
         { href: '#explore', label: 'explore'},
         { href: '#about', label: 'about us'},

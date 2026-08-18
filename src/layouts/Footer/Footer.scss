@@ -1,4 +1,87 @@
 .footer {
-  padding-block: 20px;
-  background-color: var(--color-gray);
+    margin-top: 150px;
+    text-transform: capitalize;
+    background-color: var(--color-dark-4);
+
+    &__action {
+        padding-top: 100px;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+    }
+
+    &__title {
+        display: inline;
+        max-width: 580px;
+        font-weight: 400;
+
+        & span {
+            display: inline-block;
+            vertical-align: 12px;
+            color: var(--color-accent);
+        }
+    }
+
+    &__field {
+        display: flex;
+        gap: 10px;
+        padding-bottom: 24px;
+
+        &:focus-within {
+            border-bottom: var(--border-width-2) solid var(--color-accent);
+        }
+
+        &-input {
+            width: 367px;
+            display: inline-flex;
+            align-items: center;
+            height: 58px;
+            background-color: transparent;
+            border: none;
+            color: inherit;
+            padding-left: 10px;
+            font-size: 18px;
+
+            &::placeholder {
+                font-family: inherit;
+            }
+
+            &:focus {
+                outline-offset: 0px;
+            }
+        }
+
+        &-button {
+            height: 58px;
+            background-color: var(--color-accent);
+            border: var(--border-width-1) solid var(--color-accent);
+            color: var(--color-black);
+            text-transform: capitalize;
+            padding-inline: 24px;
+
+            &:hover {
+                background-color: transparent;
+                color: var(--color-white);
+            }
+        }
+    }
+
+    & hr {
+        margin-top: 105px;
+        border: none;
+        border-top: var(--border);
+    }
+
+    &__menu {
+        &-list {
+            max-width: 485px;
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin: 0 auto;
+            padding-top: 55px;
+            padding-bottom: 70px;
+        }
+    }
 }
