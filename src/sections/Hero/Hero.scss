@@ -51,7 +51,13 @@
         padding-inline: 29px;
         height: 100%;
         background-color: var(--color-accent);
+        border: var(--border-width-1) solid var(--color-accent);
         text-transform: capitalize;
+
+        &:hover {
+            color: var(--color-accent);
+            background-color: transparent;
+        }
         
         & span {
             font-weight: 700;

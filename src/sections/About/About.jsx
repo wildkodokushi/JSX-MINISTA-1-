@@ -6,7 +6,7 @@ import './About.scss'
 export default () => {
     return (
         <>
-            <section className="about">
+            <section className="about" id="about">
                 <Trust/>
                 <Select/>
                 <Project/>
