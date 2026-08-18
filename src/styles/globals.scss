@@ -2,6 +2,8 @@ html {
   &.is-lock {
     overflow: hidden;
   }
+
+  scrollbar-gutter: auto;
 }
 
 body {
@@ -11,6 +13,7 @@ body {
   flex-direction: column;
   font-family: var(--font-family), sans-serif;
   font-weight: 400;
+  line-height: normal;
   color: var(--color-white);
   background-color: var(--color-dark-1);
 }

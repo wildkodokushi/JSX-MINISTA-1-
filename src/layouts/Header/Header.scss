@@ -1,6 +1,9 @@
 .header {
-    position: sticky;
+    position: fixed;
     top: 38px;
+    left: 0;
+    right: 0;
+    z-index: 100;
     display: inline-flex;
     align-items: center;
     height: 58px;
@@ -64,19 +67,19 @@
         &:last-child {
             border-width: var(--border-width-1);
             border-style: solid;
-            border-color: var(--color-white);
+            border-color: var(--color-black);
 
             @include hover {
-                background-color: var(--color-white);
+                background-color: var(--color-black);
 
                 & span {
-                    color: var(--color-black) !important;
+                    color: var(--color-white) !important;
                 }
             }
         }
 
         & span {
-            color: #fff !important;
+            color: var(--color-black) !important;
         }
     }
 }
