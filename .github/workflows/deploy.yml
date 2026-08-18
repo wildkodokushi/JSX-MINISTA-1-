@@ -33,7 +33,7 @@ jobs:
         run: npm ci
 
       - name: Build project
-        run: npm start build # Запускает сборку minista build
+        run: npm run build # Запускает сборку minista build
 
       - name: Setup Pages
         uses: actions/configure-pages@v4
