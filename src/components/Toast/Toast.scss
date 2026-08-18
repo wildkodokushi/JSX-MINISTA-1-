@@ -1,0 +1,36 @@
+.toast {
+    --color-error: rgb(201, 79, 79);
+    --color-success: rgb(58, 158, 58);
+
+    position: sticky;
+    z-index: 1000;
+    justify-self: end;
+    bottom: 30px;
+    opacity: 1;
+    margin-right: 30px;
+
+    &.is-open {
+        opacity: 1;
+    }
+
+    &__container {
+        border-width: var(--border-width-2);
+
+        &-notification {
+            width: 200px;
+            height: 100px;
+
+            &.disallow {
+                border-color: var(--color-error);
+                color: var(--color-error);
+                background-color: var(--color-error);
+            }
+
+            &.allow {
+                border-color: var(--color-success);
+                color: var(--color-success);
+                background-color: var(--color-success);
+            } 
+        }
+    }
+}

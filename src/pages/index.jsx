@@ -3,6 +3,7 @@ import About from "@/sections/About"
 import Services from "@/sections/Services"
 import Property from "@/sections/Property"
 import Testimonial from "@/sections/Testimonial"
+import Toast from "@/components/Toast"
 
 export default () => {
     return (
@@ -12,6 +13,8 @@ export default () => {
             <Services/>
             <Property/>
             <Testimonial/>
+            <Toast status="allow" id="status-allow" />
+            <Toast status="disallow" id="status-disallow" />
         </>
     )
 }

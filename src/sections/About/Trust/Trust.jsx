@@ -29,10 +29,10 @@ export default () => {
                             lacus, quis nunc urna. Feugiat neque, non, mi erat ultricies
                         </p>
                         <div className="trust__cta-actions">
-                            <Button className="trust__cta-button button">
+                            <Button className="trust__cta-button disallow button">
                                 <span>decline</span>
                             </Button>
-                            <Button className="trust__cta-button button">
+                            <Button className="trust__cta-button allow button">
                                 <span>allow</span>
                             </Button>
                         </div>

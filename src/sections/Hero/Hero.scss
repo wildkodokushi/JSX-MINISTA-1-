@@ -14,10 +14,13 @@
         z-index: 2;
         width: 206%;
         padding-right: 40px;
-        display: flex;
-        flex-direction: column;
-        gap: 40px;
         padding-left: 10px;
+        
+        & .container {
+            display: flex;
+            flex-direction: column;
+            gap: 40px;
+        }
     }
 
     &__tagline {
