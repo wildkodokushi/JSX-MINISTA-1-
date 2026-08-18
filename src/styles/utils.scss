@@ -1,4 +1,6 @@
 .container {
+  position: relative;
+  z-index: 1;
   width: 100%;
   max-width: calc(var(--container-width) + var(--container-padding-x) * 2);
   margin-inline: auto;

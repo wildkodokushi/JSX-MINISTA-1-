@@ -1,0 +1,23 @@
+.select {
+    position: relative;
+    display: flex;
+    align-items: center;
+    height: 420px;
+    
+    &__container {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        text-transform: capitalize;
+
+        &-subtitle {
+            font-weight: 700;
+            line-height: 125%;
+            color: var(--color-accent);
+        }
+
+        &-title {
+            font-weight: 400;
+        }
+    }
+} 

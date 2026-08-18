@@ -1,9 +1,10 @@
 .marquee {
     --textSize: 329px;
 
+    position: absolute;
     text-transform: uppercase;
     font-size: var(--textSize);
-    font-weight: 700;
     color: transparent;
-    stroke: var(--border);
+    -webkit-text-stroke: 1px #363636;
+    z-index: 0;
 }
