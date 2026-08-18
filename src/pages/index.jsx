@@ -1,13 +1,11 @@
 import Hero from "@/sections/Hero/Hero"
-import Trust from "@/sections/Trust"
-import Select from "@/sections/Select"
+import About from "@/sections/About"
 
 export default () => {
     return (
         <>
             <Hero/>
-            <Trust/>
-            <Select/>
+            <About/>
         </>
     )
 }

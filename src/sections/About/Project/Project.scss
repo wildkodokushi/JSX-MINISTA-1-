@@ -1,0 +1,55 @@
+.project {
+    height: 757px;
+    position: relative;
+    z-index: 1;
+    margin-top: 30px;
+    text-transform: capitalize;
+
+    &__image {
+        max-width: max-content;
+        position: relative;
+        z-index: 1;
+
+        &-img {
+            object-fit: cover;
+        }
+    }
+
+    &__icon {
+        content: '';
+        position: absolute;
+        background-image: url('../../../assets/icons/arrow.svg');
+        @include square(88px);
+        bottom: 90px;
+        right: -44px;
+    }
+
+    &__background {
+        bottom: 0;
+    }
+
+    &__container {
+        max-width: 731px;
+        width: 100%;
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        top: 70px;
+        right: 10px;
+        z-index: 3;
+    }
+
+    &__title {
+        font-weight: 400;
+        max-width: 506px;
+    }
+
+    &__description {
+        margin-left: auto;
+        max-width: 545px;
+        font-size: 18px;
+        line-height: 167%;
+        color: var(--color-gray-1);
+    }
+}
