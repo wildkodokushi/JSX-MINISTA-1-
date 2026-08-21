@@ -13,7 +13,7 @@ export default () => {
 
     return (
         <>
-            <section className="hero">
+            <section className="hero" id="explore">
                 <div className="hero__container">
                     <div className="hero__content">
                         <div className="container">

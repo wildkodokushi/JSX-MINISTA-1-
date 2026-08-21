@@ -54,7 +54,7 @@
     "@a1rth/css-normalize": "1.2.1",
     "clsx": "2.1.1",
     "imask": "7.6.1",
-    "swiper": "^14.1.0"
+    "swiper": "^11.2.10"
   },
   "overrides": {
     "typescript-eslint": {

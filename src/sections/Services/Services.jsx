@@ -14,7 +14,7 @@ export default () => {
 
     return (
         <>
-            <section className="services">
+            <section className="services" id='howItWorks'>
                 <div className="services__container container">
                     <div className="services__titles">
                         <h5 className="services__subtitle h5">what is llokotre?</h5>

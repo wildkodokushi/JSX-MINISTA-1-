@@ -9,7 +9,7 @@ export default () => {
 
     return (
         <>
-            <section className="testimonial">
+            <section className="testimonial" id='community'>
                 <div className="testimonial__container container">
                     {authorInfo.map(({author, company, quote}, index) => (
                         <div className="testimonial__rewie">
